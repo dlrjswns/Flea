@@ -35,7 +35,7 @@ class RegisterViewController: UIViewController {
     
     private lazy var registerButton: UIButton = {
         let btn = UIButton(type: .system)
-        btn.setTitle("로그인", for: .normal)
+        btn.setTitle("전체조회(GET)", for: .normal)
         btn.layer.borderWidth = 1
         btn.layer.borderColor = UIColor.black.cgColor
         return btn
